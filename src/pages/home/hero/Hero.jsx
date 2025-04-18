@@ -36,7 +36,7 @@ export default function Hero() {
                     <div className="space-y-8 order-2 md:order-1 animate-fade-in-up">
                         <header className="mb-14 text-center">
                             <h1 className="text-2xl  font-extrabold text-blue-800 mb-2 animate-fade-in">
-                                لماذا شركة الرواد للفيبر جلاس؟
+                                لماذا شركة شوشه للفيبر جلاس؟
                             </h1>
                             <div className="h-1 w-32 mx-auto bg-blue-600 rounded-full animate-wiggle" />
                         </header>

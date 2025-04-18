@@ -11,8 +11,7 @@ export default function index() {
                 <Store />
             </div>
             <div className="  max-w-7xl mx-auto sm:px-6 lg:px-8 md:px-4">
-                <ContactUs />
-            </div>
+             </div>
             <Footer />
         </>
     )

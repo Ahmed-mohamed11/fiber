@@ -3,8 +3,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import "./App.css";
 import "./App.scss";
 import Navbar from "./components/Navbar";
-import { useI18nContext } from "./context/i18n-context";
-import HomePage from "./pages/home/index";
+ import HomePage from "./pages/home/index";
 import Error404Modern from "./pages/error/404-modern";
  import { Outlet } from "react-router-dom";
  import User from "./pages/user/User";
@@ -27,8 +26,7 @@ function App() {
     localStorage.getItem("isDarkMode") === "true" || false
   );
   const [reloadPage, setReloadPage] = useState(false);
-  const { language } = useI18nContext();
-
+ 
   useEffect(() => {
     setLoading(true);
     const timeoutId = setTimeout(() => {
@@ -63,7 +61,7 @@ function App() {
   }
 
   return (
-    <div className={`${isDarkMode ? "dark" : "light"}`} dir={language === "ar" ? "rtl" : "ltr"}>
+    <div className={`${isDarkMode ? "dark" : "light"}`}  >
       <div className="flex">
         <div className="w-full">
           <Routes>

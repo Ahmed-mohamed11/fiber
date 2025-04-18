@@ -6,7 +6,7 @@ import en from "../locale/en";
 export const I18nContext = createContext(null);
 
 const supportedLanguages = ["en", "ar"];
-const defaultLanguage = "en";
+const defaultLanguage = "ar";
 
 export const I18nProvider = ({ children }) => {
   const [language, setLanguage] = useState(defaultLanguage);

@@ -1,6 +1,4 @@
-import { InstagramLogo, FacebookLogo, LinkedinLogo, TwitterLogo, YoutubeLogo, WhatsappLogo } from "@phosphor-icons/react";
-import { Link } from "react-router-dom";
-
+ 
 export default function Footer() {
     return (
         <footer className="bg-gray-200   py-16 px-4">
@@ -42,31 +40,10 @@ export default function Footer() {
                                 Subscribe
                             </button>
                         </form>
-                        <div className="flex gap-6 mt-6">
-                            <Link to='/' className="text-green-500 hover:text-green-400 transition-colors">
-                                <WhatsappLogo className="w-6 h-6" />
-                            </Link>
-                            <Link to='/' className="text-red-500 hover:text-red-400 transition-colors">
-                                <YoutubeLogo className="w-6 h-6" />
-                            </Link>
-                            <Link to='/' className="text-pink-500 hover:text-pink-400 transition-colors">
-                                <InstagramLogo className="w-6 h-6" />
-                            </Link>
-                            <Link to='/' className="text-blue-500 hover:text-blue-400 transition-colors">
-                                <FacebookLogo className="w-6 h-6" />
-                            </Link>
-                            <Link to='/' className="text-blue-700 hover:text-blue-600 transition-colors">
-                                <LinkedinLogo className="w-6 h-6" />
-                            </Link>
-                            <Link to='/' className="text-blue-400 hover:text-blue-300 transition-colors">
-                                <TwitterLogo className="w-6 h-6" />
-                            </Link>
-                        </div>
+                        
                     </div>
                 </div>
-                <div className="text-center text-md text-gray-900">
-                    <p>Mobile: +201032210349</p>
-                </div>
+               
                 <hr className="border-gray-700 my-8" />
 
             </div>
