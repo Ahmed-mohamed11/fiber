@@ -1,5 +1,4 @@
-// components/SettingItem.js
-const SettingItem = ({ title, description, action, actionClass = "text-blue-500 hover:text-blue-600" }) => (
+ const SettingItem = ({ title, description, action, actionClass = "text-blue-500 hover:text-blue-600" }) => (
     <div className="flex items-center justify-between py-3 border-b">
         <div>
             <h4 className="font-medium text-gray-800">{title}</h4>

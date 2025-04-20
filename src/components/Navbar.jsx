@@ -1,6 +1,4 @@
-import { Menu, Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
-import { Bell, Moon, Sun, UserCircle } from "lucide-react";
 import logo from "../images/gfx/Untitled_design[1].png";
   
 function classNames(...classes) {
@@ -10,8 +8,8 @@ function classNames(...classes) {
 const Navbar = ( ) => {
  
   return (
-    <div className="w-full bg-black shadow-lg z-50 text-white"  >
-      <div className="container max-w-8xl  mx-auto flex justify-between items-center h-20 px-8">
+    <div className="w-full bg-gray-900 shadow-lg z-50 text-white"  >
+      <div className="container   mx-auto flex justify-between items-center h-20 px-16">
 
          <img src={logo} alt="Logo" className="h-16 w-16 rounded-full" />
 
