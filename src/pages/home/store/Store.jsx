@@ -68,12 +68,12 @@ export default function Store() {
     return (
         <section className="bg-gradient-to-br from-blue-50 to-white py-20 text-gray-800" dir="rtl">
             <div className="max-w-7xl mx-auto px-4">
-                <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-900 mb-16 relative">
-                    لماذا تختار الرواد للفيبرجلاس؟
+                <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-900 my-8 relative">
+                    لماذا تختار شوشه للفيبرجلاس؟
                     <span className="absolute left-1/2 -bottom-2 w-20 h-1 bg-red-600 rounded-full transform -translate-x-1/2"></span>
                 </h2>
 
-                <div className="grid md:grid-cols-3 gap-8 mb-20">
+                <div className="grid md:grid-cols-3 gap-8 mb-12">
                     {[
                         {
                             title: "صمم من أجل الأفضل",
@@ -100,23 +100,27 @@ export default function Store() {
                         <div
                             key={i}
                             ref={(el) => (cardsRef.current[i] = el)}
-                            className={`bg-gradient-to-tr ${card.color} rounded-3xl p-8 shadow-lg transition-transform hover:scale-105 border`}
+                            className={`bg-gradient-to-tr ${card.color} rounded-3xl p-8 shadow-lg transition-transform hover:scale-105 border flex flex-col justify-between min-h-[330px]`}
                         >
-                            <h3 className={`text-lg font-bold mb-4 ${card.titleColor}`}>
-                                {card.title}
-                            </h3>
-                            <p className="text-sm text-gray-700 leading-loose mb-8">
-                                {card.text}
-                            </p>
+                            <div>
+                                <h3 className={`text-lg font-bold mb-4 ${card.titleColor}`}>
+                                    {card.title}
+                                </h3>
+                                <p className="text-sm text-gray-700 leading-loose">
+                                    {card.text}
+                                </p>
+                            </div>
+
                             <div
                                 ref={(el) => (circlesRef.current[i] = el)}
-                                className="w-28 h-28 mx-auto rounded-full border-[10px] border-blue-800 flex items-center justify-center text-center text-sm font-bold text-blue-900 shadow-inner bg-white"
+                                className="w-28 h-28 mt-8 mx-auto rounded-full border-[10px] border-blue-800 flex items-center justify-center text-center text-sm font-bold text-blue-900 shadow-inner bg-white"
                             >
                                 {card.circle}
                             </div>
                         </div>
                     ))}
                 </div>
+
 
                  <div
                     ref={ctaRef}

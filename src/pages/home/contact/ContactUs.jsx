@@ -12,7 +12,7 @@ export default function ContactForm() {
     });
 
     return (
-        <div className="min-h-screen flex items-center justify-center p-4 font-sans">
+        <div className="min-h-screen flex flex-col items-center justify-center p-4 font-sans bg-gradient-to-b from-white via-blue-50 to-white" dir="rtl">
             <div className="w-full max-w-2xl mx-auto">
                 <h1 className="text-4xl font-bold text-center mb-4">
                     <span className="text-black">تواصل </span>
@@ -106,6 +106,18 @@ export default function ContactForm() {
                         </button>
                     </div>
                 </form>
+
+                {/* معلومات الاتصال */}
+                <div className="mt-10 flex flex-col md:flex-row justify-center items-center gap-6 text-center text-gray-700 text-base font-medium">
+                    <div className="flex items-center gap-2">
+                        <MdMailOutline className="text-sky-600 text-xl" />
+                        <span>shoosha.factory@gmail.com</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <FaPhone className="text-sky-600 text-lg" />
+                        <span>01010909699</span>
+                    </div>
+                </div>
             </div>
         </div>
     )

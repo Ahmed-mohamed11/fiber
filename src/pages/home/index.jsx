@@ -3,7 +3,7 @@ import Hero from "./hero/Hero";
 import OurProducts from "./products/OurProducts";
 import Store from "./store/Store";
 
- 
+import ContactUs from "./contact/ContactUs";
 export default function index() {
     return (
         <>
@@ -11,9 +11,9 @@ export default function index() {
                 <Hero />
                 <Store />
                 <OurProducts />
+                <ContactUs />
             </div>
-            <div className="  max-w-7xl mx-auto sm:px-6 lg:px-8 md:px-4">
-             </div>
+            
             <Footer />
         </>
     )

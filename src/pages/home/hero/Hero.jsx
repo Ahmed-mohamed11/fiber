@@ -1,13 +1,14 @@
 import { Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import logo from "../../../images/gfx/tree-736885_640.jpg";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
     return (
-        <section className="bg-gradient-to-b from-blue-50 via-white to-blue-100 " dir="ltr">
+        <section className="bg-gradient-to-b from-blue-50 via-white to-blue-100 relative top-20" dir="ltr">
             <div className="container mx-auto px-6 md:px-12 font-sans">
                 <div className="grid md:grid-cols-2 gap-16 items-center">
-                     <motion.div
+                    <motion.div
                         className="order-1 md:order-2"
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
@@ -28,26 +29,35 @@ export default function Hero() {
                         </div>
 
                         <div className="mt-6 grid grid-cols-2 gap-4">
-                            <motion.button
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                                className="bg-blue-700 hover:bg-blue-800 text-white py-3 rounded-xl font-bold shadow-lg transition-all duration-300"
-                            >
-                                منتجات الشركة
-                            </motion.button>
+                            <Link to="/products">
+                                <motion.button
+                                    whileHover={{ scale: 1.05 }}
+                                    whileTap={{ scale: 0.95 }}
+                                    className="w-full bg-blue-700 hover:bg-blue-800 text-white py-3 rounded-xl font-bold shadow-lg transition-all duration-300"
+                                >
+                                    منتجات الشركة
+                                </motion.button>
+                            </Link>
 
-                            <motion.button
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                                className="border border-blue-700 text-blue-700 hover:bg-blue-100 py-3 rounded-xl font-bold shadow-md transition-all duration-300 flex items-center justify-center gap-2"
+                            <a
+                                href="https://wa.me/01010195337"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-full"
                             >
-                                <Phone className="h-5 w-5" />
-                                اتصل بنا
-                            </motion.button>
+                                <motion.button
+                                    whileHover={{ scale: 1.05 }}
+                                    whileTap={{ scale: 0.95 }}
+                                    className="w-full border border-blue-700 text-blue-700 hover:bg-blue-100 py-3 rounded-xl font-bold shadow-md transition-all duration-300 flex items-center justify-center gap-2"
+                                >
+                                    <Phone className="h-5 w-5" />
+                                    اتصل بنا
+                                </motion.button>
+                            </a>
                         </div>
                     </motion.div>
 
-                     <motion.div
+                    <motion.div
                         className="space-y-10 order-2 md:order-1"
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
