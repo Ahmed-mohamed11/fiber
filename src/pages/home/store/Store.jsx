@@ -66,7 +66,7 @@ export default function Store() {
     }, []);
 
     return (
-        <section className="bg-gradient-to-br from-blue-50 to-white py-20 text-gray-800" dir="rtl">
+        <section className="bg-gradient-to-br from-blue-50  to-white py-20 text-gray-800" dir="rtl">
             <div className="max-w-7xl mx-auto px-4">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-900 my-8 relative">
                     لماذا تختار شوشه للفيبرجلاس؟

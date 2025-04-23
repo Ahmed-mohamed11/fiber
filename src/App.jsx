@@ -7,7 +7,9 @@ import Navbar from "./components/Navbar";
 import Error404Modern from "./pages/error/404-modern";
  import { Outlet } from "react-router-dom";
  import User from "./pages/user/User";
-  
+import OurProducts from "./pages/home/products/OurProducts";
+import Store from "./pages/home/store/Store";
+import ContactUs from "./pages/home/contact/ContactUs";
  function Layout({ toggleDarkMode, isDarkMode }) {
   return (
     <>
@@ -69,11 +71,14 @@ function App() {
               element={<Layout toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />}
             >
               <Route path="/" element={<HomePage />} />
+              <Route path="/products" element={<OurProducts />} />
+              <Route path="/about" element={<Store />} />
+              <Route path="/contact" element={<ContactUs />} />
               <Route path="/profile" element={<User />} />
             </Route>
-
             <Route path="*" element={<Error404Modern />} />
           </Routes>
+
         </div>
       </div>
     </div>

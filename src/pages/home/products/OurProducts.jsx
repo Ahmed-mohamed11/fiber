@@ -71,7 +71,7 @@ export default function OurProducts() {
     };
 
     return (
-        <section className="bg-gradient-to-b from-blue-50 via-white to-blue-100 text-right">
+        <section className="bg-gradient-to-b from-blue-50 mt-16 via-white to-blue-100 text-right">
             <div className="container space-y-8 mx-auto px-6 md:px-12 font-sans">
                 <motion.h4
                     className="text-center md:text-3xl font-extrabold text-red-700 tracking-wide"

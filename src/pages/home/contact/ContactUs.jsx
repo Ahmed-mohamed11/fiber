@@ -12,7 +12,7 @@ export default function ContactForm() {
     });
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-4 font-sans bg-gradient-to-b from-white via-blue-50 to-white" dir="rtl">
+        <div className="min-h-screen flex flex-col items-center justify-center mt-20 p-4 font-sans bg-gradient-to-b from-white via-blue-50 to-white" dir="rtl">
             <div className="w-full max-w-2xl mx-auto">
                 <h1 className="text-4xl font-bold text-center mb-4">
                     <span className="text-black">تواصل </span>

@@ -13,7 +13,7 @@ export default function index() {
                 <OurProducts />
                 <ContactUs />
             </div>
-            
+   
             <Footer />
         </>
     )

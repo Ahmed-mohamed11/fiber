@@ -15,9 +15,6 @@ const Navbar = () => {
       className="w-full bg-white shadow-lg z-50 fixed top-0"
     >
       <div className="container mx-auto flex justify-between items-center h-20  px-8 md:px-16">
-
-       
-
          <div className="flex items-center gap-6 md:gap-10 font-semibold text-lg flex-row-reverse">
           <Link to="/" className="hover:text-yellow-400 transition duration-300">
             الصفحة الرئيسية
@@ -31,6 +28,7 @@ const Navbar = () => {
           <Link to="/contact" className="hover:text-yellow-400 transition duration-300">
             تواصل معنا
           </Link>
+
         </div>
         <img
           src={logo}
