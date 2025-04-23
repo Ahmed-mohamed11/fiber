@@ -40,7 +40,7 @@ export default function Hero() {
                             </Link>
 
                             <a
-                                href="https://wa.me/01010195337"
+                                href="https://wa.me/+201010195337"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-full"

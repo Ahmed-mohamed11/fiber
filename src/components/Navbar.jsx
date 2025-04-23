@@ -33,7 +33,7 @@ const Navbar = () => {
         <img
           src={logo}
           alt="Logo"
-          className="w-16 h-24 object-contain rounded-full"
+          className="w-20 h-24 object-contain "
         />
       </div>
     </motion.div>

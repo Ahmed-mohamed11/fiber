@@ -54,11 +54,16 @@ const fadeInUp = {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeInOut" } },
 };
 
-const parentVariants = {
+const fadeInPolicy = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
+};
+
+const policyParentVariants = {
     hidden: {},
     visible: {
         transition: {
-            staggerChildren: 0.3,
+            staggerChildren: 0.2,
         },
     },
 };
@@ -82,10 +87,12 @@ export default function OurProducts() {
                 >
                     منتجات مصنع شوشه للفيبرجلاس
                 </motion.h4>
+
                 <div className="h-1 w-48 mx-auto md:ml-auto bg-red-700 rounded-full animate-bounce" />
+
                 <motion.div
                     className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10"
-                    variants={parentVariants}
+                    variants={policyParentVariants}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: false }}
@@ -111,46 +118,55 @@ export default function OurProducts() {
                     ))}
                 </motion.div>
 
-                {/* فاصلة بين المنتجات والمؤشرات/السياسة */}
-                <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-10">
-                    {/* السياسة العامة */}
-                    <motion.div
+                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-10">
+
+                     <motion.div
                         className="bg-white rounded-3xl shadow-xl border border-blue-100 overflow-hidden"
-                        variants={fadeInUp}
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: false }}
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 1 }}
+                        viewport={{ once: false, amount: 0.5 }}
+                        variants={fadeInPolicy}
                     >
                         <div className="bg-blue-700 text-white p-5 text-center">
                             <h2 className="text-2xl font-bold">السياسة العامة لشركة شوشه</h2>
                         </div>
-                        <div className="p-6 space-y-5 text-gray-700">
+                        <motion.div
+                            className="p-6 space-y-5 text-gray-700"
+                            variants={policyParentVariants}
+                        >
                             {policies.map((item, index) => (
-                                <div
+                                <motion.div
                                     key={index}
                                     className="border rounded-xl shadow-md p-4 cursor-pointer"
                                     onClick={() => toggleAccordion(index)}
+                                    variants={fadeInUp}
                                 >
                                     <h3 className="text-lg font-semibold text-blue-800">
                                         {item.title}
                                     </h3>
                                     {openIndex === index && (
-                                        <p className="mt-2 text-gray-600 transition-all duration-300">
+                                        <motion.p
+                                            className="mt-2 text-gray-600"
+                                            initial={{ opacity: 0, height: 0 }}
+                                            animate={{ opacity: 1, height: "auto" }}
+                                            transition={{ duration: 0.4 }}
+                                        >
                                             {item.description}
-                                        </p>
+                                        </motion.p>
                                     )}
-                                </div>
+                                </motion.div>
                             ))}
-                        </div>
+                        </motion.div>
                     </motion.div>
 
-                    {/* مؤشرات الجودة */}
-                    <motion.div
+                     <motion.div
                         className="bg-white rounded-3xl shadow-xl border border-blue-100 overflow-hidden"
-                        variants={fadeInUp}
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: false }}
+                         initial={{ opacity: 0, scale: 0.95 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 1 }}
+                        viewport={{ once: false, amount: 0.5 }}
+                        variants={fadeInPolicy}
                     >
                         <div className="bg-blue-700 text-white p-5 text-center">
                             <h2 className="text-2xl font-bold">مؤشرات الجودة</h2>

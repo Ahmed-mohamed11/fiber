@@ -3,16 +3,14 @@ import Hero from "./hero/Hero";
 import OurProducts from "./products/OurProducts";
 import Store from "./store/Store";
 
-import ContactUs from "./contact/ContactUs";
-export default function index() {
+ export default function index() {
     return (
         <>
             <div className='bg-gray-200'>
                 <Hero />
                 <Store />
                 <OurProducts />
-                <ContactUs />
-            </div>
+             </div>
    
             <Footer />
         </>
