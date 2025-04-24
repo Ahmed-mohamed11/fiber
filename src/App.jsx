@@ -11,6 +11,7 @@ import OurProducts from "./pages/home/products/OurProducts";
 import Store from "./pages/home/store/Store";
 import ContactUs from "./pages/home/contact/ContactUs";
 import Footer from "./components/Footer";
+import OurStory from "./pages/home/store/OurStory";
  function Layout({ toggleDarkMode, isDarkMode }) {
   return (
     <>
@@ -75,7 +76,12 @@ function App() {
             >
               <Route path="/" element={<HomePage />} />
               <Route path="/products" element={<OurProducts />} />
-              <Route path="/about" element={<Store />} />
+              <Route path="/about" element={
+                <>
+                  <OurStory />
+                  <Store />
+                </>
+              } />
               <Route path="/contact" element={<ContactUs />} />
               <Route path="/profile" element={<User />} />
             </Route>
