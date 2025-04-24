@@ -21,11 +21,7 @@ export default function Hero() {
                                 alt="Logo"
                                 className="w-full h-[400px] md:h-[500px] object-cover rounded-3xl"
                             />
-                            <div className="absolute -bottom-3 w-full bg-gradient-to-t from-blue-900/90 to-transparent p-5 text-white text-center">
-                                <h2 className="text-2xl font-bold drop-shadow-lg ">
-                                    خزانات فيبر جلاس
-                                </h2>
-                            </div>
+                          
                         </div>
 
                         <div className="mt-6 grid grid-cols-2 gap-4">
