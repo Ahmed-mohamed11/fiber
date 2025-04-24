@@ -19,7 +19,7 @@ export default function Footer() {
     }, []);
 
     return (
-        <footer ref={footerRef} className="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-300 pt-20 pb-10 mt-24 shadow-2xl" dir="rtl">
+        <footer ref={footerRef} className="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-300 pt-20 pb-10  shadow-2xl" dir="rtl">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
 
                 <div className="footer-col">

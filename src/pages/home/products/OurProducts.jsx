@@ -1,7 +1,6 @@
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
 import image1 from "../../../images/gfx/download.jpeg";
 import image2 from "../../../images/gfx/download (1).jpeg";
 import image3 from "../../../images/gfx/download (2).jpeg";
@@ -78,6 +77,20 @@ export default function OurProducts() {
     return (
         <section className="bg-gradient-to-b from-blue-50 mt-16 via-white to-blue-100 text-right">
             <div className="container space-y-8 mx-auto px-6 md:px-12 font-sans">
+                <motion.div
+                    className="container mx-auto px-6 md:px-12 py-10 text-right"
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true }}
+                >
+                    <div className="bg-white shadow-lg rounded-3xl p-6 md:p-10 border border-blue-200">
+                        <h2 className="text-2xl md:text-3xl font-bold text-blue-700 mb-4 text-center">قصتنا</h2>
+                        <p className="text-gray-700 leading-loose text-lg md:text-xl font-medium">
+                            بدأت قصتنا مع الفيبر جلاس و تلبية متطلبات السادة العملاء من تصنيع جميع منتجات الفيبر جلاس التي تخدم السادة العملاء و تصب في مصلحة بلادنا الحبيبة مصر مثل أكشاك الحراسة المصممة بطريقة ديكورية ماهرة لتلبية رغبة العميل و تحتوي شكلاً جمالياً و كذلك قمنا بتصنيع الخزانات بأشكالها و أحجامها المختلفة و استخداماتها المتنوعة و أتممنا رحلتنا في مجالات متنوعة تخدم اقتصاد بلادنا مثل أعمدة الإنارة حيث قمنا بتصنيع أعمدة الإنارة بأشكال ديكورية لتعطي جمالاً على المكان الذي توجد فيه قمنا بعمل قسم خاص لتصنيع أعمدة الإنارة بدأً من أصغر عامود ٦٠ سم حتى ١٢ م أعمدة الحدائق و النوادي و الشوارع و قمنا بعمل تصميمات جديدة للأعمدة و موقع خاص ليعرض منتجاتنا لعملائنا و أصبحنا مصنع مختص لتلبية طلبات العملاء.
+                        </p>
+                    </div>
+                </motion.div>
                 <motion.h4
                     className="text-center md:text-3xl font-extrabold text-red-700 tracking-wide"
                     variants={fadeInUp}
@@ -145,16 +158,20 @@ export default function OurProducts() {
                                     <h3 className="text-lg font-semibold text-blue-800">
                                         {item.title}
                                     </h3>
-                                    {openIndex === index && (
-                                        <motion.p
-                                            className="mt-2 text-gray-600"
-                                            initial={{ opacity: 0, height: 0 }}
-                                            animate={{ opacity: 1, height: "auto" }}
-                                            transition={{ duration: 0.4 }}
-                                        >
-                                            {item.description}
-                                        </motion.p>
-                                    )}
+
+                                    <AnimatePresence initial={false}>
+                                        {openIndex === index && (
+                                            <motion.p
+                                                className="mt-2 text-gray-600"
+                                                initial={{ opacity: 0, height: 0 }}
+                                                animate={{ opacity: 1, height: "auto" }}
+                                                exit={{ opacity: 0, height: 0 }}
+                                                transition={{ duration: 0.4, ease: "easeInOut" }}
+                                            >
+                                                {item.description}
+                                            </motion.p>
+                                        )}
+                                    </AnimatePresence>
                                 </motion.div>
                             ))}
                         </motion.div>

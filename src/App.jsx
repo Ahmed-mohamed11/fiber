@@ -10,6 +10,7 @@ import Error404Modern from "./pages/error/404-modern";
 import OurProducts from "./pages/home/products/OurProducts";
 import Store from "./pages/home/store/Store";
 import ContactUs from "./pages/home/contact/ContactUs";
+import Footer from "./components/Footer";
  function Layout({ toggleDarkMode, isDarkMode }) {
   return (
     <>
@@ -17,6 +18,8 @@ import ContactUs from "./pages/home/contact/ContactUs";
       <div className="pt-0">
         <Outlet />
       </div>
+      <Footer toggleDark={toggleDarkMode} dark={isDarkMode} />
+
     </>
   );
 }
