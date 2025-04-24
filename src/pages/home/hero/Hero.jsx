@@ -1,6 +1,6 @@
 import { Phone } from "lucide-react";
 import { motion } from "framer-motion";
-import logo from "../../../images/gfx/tree-736885_640.jpg";
+import logo from "../../../images/gfx/Untitled_design[1].png";
 import { Link } from "react-router-dom";
 
 export default function Hero() {
@@ -21,8 +21,8 @@ export default function Hero() {
                                 alt="Logo"
                                 className="w-full h-[400px] md:h-[500px] object-cover rounded-3xl"
                             />
-                            <div className="absolute bottom-0 w-full bg-gradient-to-t from-blue-900/90 to-transparent p-5 text-white text-center">
-                                <h2 className="text-2xl font-bold drop-shadow-lg">
+                            <div className="absolute -bottom-3 w-full bg-gradient-to-t from-blue-900/90 to-transparent p-5 text-white text-center">
+                                <h2 className="text-2xl font-bold drop-shadow-lg ">
                                     خزانات فيبر جلاس
                                 </h2>
                             </div>
