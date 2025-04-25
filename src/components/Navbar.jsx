@@ -65,7 +65,7 @@ const Navbar = () => {
   return (
     <>
       <motion.div
-      dir="rtl"
+        dir="rtl"
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
@@ -84,8 +84,8 @@ const Navbar = () => {
               onMouseLeave={() => setIsHovered(false)}
             >
               <div className="flex items-center gap-2">
-                <ArrowDownCircle size={20} className="hover:text-yellow-500 transition" />
                 <Link to="/products" className="hover:text-yellow-500 transition">المنتجات</Link>
+                <ArrowDownCircle size={20} className="hover:text-yellow-500 transition" />
               </div>
             </div>
             <Link to="/about" className="hover:text-yellow-500 transition">عن الشركة</Link>
@@ -126,9 +126,9 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
-            className="hidden md:block fixed top-20 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50"
+            className="hidden md:block fixed top-0 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50"
           >
-            <div className="max-w-7xl mx-auto px-6 py-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-right">
+            <div className="max-w-7xl mx-auto px-6 py-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-right">
               {products.map((product, index) => (
                 <div key={index} className="text-center space-y-3">
                   <img

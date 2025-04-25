@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -77,8 +76,6 @@ export default {
         move6: "move6 ease-in-out 8s infinite alternate",
         move7: "move7 ease-in-out 4s infinite alternate",
       },
-      // tailwind.config.js
-      theme: {
         container: {
           center: true,
           padding: "1rem",
@@ -89,7 +86,7 @@ export default {
             xl: "1280px",
           },
         },
-      },
+      
     },
   },
   darkMode: "class",
