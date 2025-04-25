@@ -28,7 +28,7 @@
     "react-slick": "^0.30.3",
     "sass": "^1.70.0",
      "sweetalert2": "^11.10.5",
-    "swiper": "^11.2.6",
+    "swiper": "^11.2.6"
     },
   "devDependencies": {
     "@types/react": "^18.2.55",
