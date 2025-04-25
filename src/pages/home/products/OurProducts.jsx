@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import {  Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -78,17 +78,16 @@ export default function OurProducts() {
                 <div dir="rtl">
                     <Swiper
                         dir="rtl"
-                        modules={[Navigation, Pagination, Autoplay]}
+                        modules={[Pagination, Autoplay]}  
                         spaceBetween={20}
                         slidesPerView={1}
                         breakpoints={{
                             640: { slidesPerView: 2 },
                             1024: { slidesPerView: 4 },
                         }}
-                        navigation
-                        pagination={{ clickable: true }}
+                        pagination={{ clickable: true }}  
                         autoplay={{ delay: 3500, disableOnInteraction: false }}
-                        loop={true} 
+                        loop={true}
                         className="mySwiper py-12"
                     >
                         {categories.map((product, index) => (

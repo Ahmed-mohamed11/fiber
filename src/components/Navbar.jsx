@@ -86,7 +86,7 @@ const Navbar = () => {
             transition={{ duration: 0.4, ease: "easeInOut" }}
             className="hidden md:block fixed top-0 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50"
           >
-            <div className="max-w-8xl mx-auto px-6 py-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-7 gap-4 text-center">
+            <div className="max-w-8xl mx-auto px-6 py-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-7 gap-8 text-center">
               {categories.map((category, index) => (
                 <div key={index} className="text-center space-y-3">
                   <img

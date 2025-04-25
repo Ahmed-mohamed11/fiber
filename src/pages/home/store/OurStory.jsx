@@ -16,18 +16,18 @@ const OurStory = () => {
     );
 
     useEffect(() => {
-        const timeouts = qualityIndicators.map((item, index) => {
-            return setTimeout(() => {
+        qualityIndicators.forEach((item, index) => {
+            const timeout = setTimeout(() => {
                 setAnimatedValues((prev) => {
                     const updated = [...prev];
                     updated[index] = item.value;
                     return updated;
                 });
             }, 600 + index * 400);
-        });
 
-        return () => timeouts.forEach(clearTimeout);
-    });
+            return () => clearTimeout(timeout);
+        });
+    }, []);
 
     return (
         <section className="bg-gradient-to-b from-blue-50 via-white to-blue-100 text-right font-sans py-16">
@@ -39,8 +39,9 @@ const OurStory = () => {
                     viewport={{ once: true }}
                     className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start"
                 >
+                    {/* Left Section: Story */}
                     <motion.div
-                        className="bg-white shadow-xl rounded-3xl p-8 md:p-10 border border-blue-200 flex flex-col justify-between"
+                        className="bg-white shadow-xl rounded-3xl p-8 md:p-10 border border-blue-200 flex flex-col justify-between min-h-[400px]"
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1 }}
@@ -50,15 +51,15 @@ const OurStory = () => {
                             قصتنا
                         </h2>
                         <p
-                            className="text-gray-700 text-lg font-semibold leading-loose text-justify"
+                            className="text-gray-700 lg:text-xl lg:py-1 font-semibold leading-loose text-justify"
                             dir="rtl"
                         >
                             بدأت قصتنا مع الفيبر جلاس و تلبية متطلبات السادة العملاء من تصنيع جميع منتجات الفيبر جلاس التي تخدم السادة العملاء و تصب في مصلحة بلادنا الحبيبة مصر مثل أكشاك الحراسة المصممة بطريقة ديكورية ماهرة لتلبية رغبة العميل و تحتوي شكلاً جمالياً و كذلك قمنا بتصنيع الخزانات بأشكالها و أحجامها المختلفة و استخداماتها المتنوعة و أتممنا رحلتنا في مجالات متنوعة تخدم اقتصاد بلادنا مثل أعمدة الإنارة حيث قمنا بتصنيع أعمدة الإنارة بأشكال ديكورية لتعطي جمالاً على المكان الذي توجد فيه قمنا بعمل قسم خاص لتصنيع أعمدة الإنارة بدأً من أصغر عامود ٦٠ سم حتى ١٢ م أعمدة الحدائق و النوادي و الشوارع و قمنا بعمل تصميمات جديدة للأعمدة و موقع خاص ليعرض منتجاتنا لعملائنا و أصبحنا مصنع مختص لتلبية طلبات العملاء
                         </p>
                     </motion.div>
 
-                    <motion.div
-                        className="bg-white shadow-xl rounded-3xl border border-blue-200"
+                     <motion.div
+                        className="bg-white shadow-xl rounded-3xl border border-blue-200 flex flex-col min-h-[400px]"
                         initial={{ opacity: 0, x: 30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1 }}
@@ -93,8 +94,7 @@ const OurStory = () => {
                             ))}
                         </div>
 
-                        {/* CTA buttons */}
-                        <div className="px-6 pb-6 mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                         <div className="px-6 pb-6 mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <Link to="/products">
                                 <motion.button
                                     whileHover={{ scale: 1.05 }}
