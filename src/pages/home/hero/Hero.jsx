@@ -7,9 +7,9 @@ export default function Hero() {
     return (
         <section className="bg-gradient-to-b from-blue-50 via-white to-blue-100 relative top-20" dir="ltr">
             <div className="container mx-auto px-6 md:px-12 font-sans">
-                <div className="grid md:grid-cols-2 gap-16 items-center">
-                    <motion.div
-                        className="order-1 md:order-2"
+                <div className="grid md:grid-cols-2 gap-16 items-stretch min-h-[600px]">
+                     <motion.div
+                        className="order-1 md:order-2 flex flex-col justify-between h-full"
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8 }}
@@ -21,7 +21,6 @@ export default function Hero() {
                                 alt="Logo"
                                 className="w-full h-[400px] md:h-[500px] object-cover rounded-3xl"
                             />
-                          
                         </div>
 
                         <div className="mt-6 grid grid-cols-2 gap-4">
@@ -53,18 +52,17 @@ export default function Hero() {
                         </div>
                     </motion.div>
 
-                    <motion.div
-                        className="space-y-10 order-2 md:order-1"
+                     <motion.div
+                        className="space-y-10 order-2 md:order-1 h-full self-stretch flex flex-col justify-center"
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
                         viewport={{ once: false, amount: 0.5 }}
                     >
-                        <header className="text-center md:text-right">
-                            <h1 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-4">
+                        <header className="text-center md:text-right" dir="rtl">
+                            <h1 className="text-3xl w-fit md:text-4xl font-extrabold py-2 text-blue-900 border-b-2 border-b-black border-dashed border-l-blue-700 mb-2">
                                 لماذا شركة شوشه للفيبر جلاس؟
                             </h1>
-                            <div className="h-1 w-24 md:ml-auto bg-blue-600 rounded-full animate-bounce" />
                         </header>
 
                         {[...Array(2)].map((_, idx) => (
@@ -76,7 +74,7 @@ export default function Hero() {
                                 transition={{ duration: 0.6, delay: idx * 0.2 }}
                                 viewport={{ once: false, amount: 0.5 }}
                             >
-                                <p className="text-gray-800 leading-loose text-right text-sm md:text-base">
+                                <p dir="rtl" className="text-gray-800 leading-loose text-justify text-sm md:text-base">
                                     {idx === 0 ? (
                                         `تأسست شركة شوشه جروب للفيبر جلاس و هى شركة رائدة في مجال الفيبر جلاس استطاعت الشركة خلال فترة قصيرة أن تتقدم في مجال الفيبر جلاس و تصدير منتجاتها الى الخارج تتميز الشركة بأنها شركة رائدة في تصنيع الفيبر المسلح بالألياف الزجاجية و المدهونة بمادة الجليكوت الملساء و التي تتميز بتحملها العوامل الجوية و للشركة اسم مميز داخل السوق المصري و العربي بما تقدمه من منتجات متعددة و بأسعار مناسبة و جودة عالية تتميز الشركة بأن لديها المتخصصين الذين يستطيعون بفضل الله ثم كفائتهم العالية و خبرتهم الطويلة من تنفيذ و تصميم أى رسومات أو مواصفات خاصة للمنتجات المطلوبة طبقاً للمواصفات القياسية العالمية و المصرية و كذلك طبقاً لرغبة العملاء.`
                                     ) : (
@@ -89,5 +87,6 @@ export default function Hero() {
                 </div>
             </div>
         </section>
+
     );
 }
