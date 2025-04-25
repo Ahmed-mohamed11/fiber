@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
  import HomePage from "./pages/home/index";
 import Error404Modern from "./pages/error/404-modern";
  import { Outlet } from "react-router-dom";
- import User from "./pages/user/User";
 import OurProducts from "./pages/home/products/OurProducts";
 import Store from "./pages/home/store/Store";
 import ContactUs from "./pages/home/contact/ContactUs";
@@ -83,7 +82,6 @@ function App() {
                 </>
               } />
               <Route path="/contact" element={<ContactUs />} />
-              <Route path="/profile" element={<User />} />
             </Route>
             <Route path="*" element={<Error404Modern />} />
           </Routes>
