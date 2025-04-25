@@ -6,9 +6,9 @@ import { useEffect, useState } from "react";
 const OurStory = () => {
     const qualityIndicators = [
         { label: "الجودة", value: 100 },
-        { label: "الدقة", value: 95 },
-        { label: "المواصفات القياسية", value: 90 },
-        { label: "خدمات ما بعد البيع", value: 85 },
+        { label: "الدقة", value: 99 },
+        { label: "المواصفات القياسية", value: 99 },
+        { label: "خدمات ما بعد البيع", value: 99 },
     ];
 
     const [animatedValues, setAnimatedValues] = useState(
@@ -39,9 +39,8 @@ const OurStory = () => {
                     viewport={{ once: true }}
                     className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start"
                 >
-                    {/* Left Section: Story */}
                     <motion.div
-                        className="bg-white shadow-xl rounded-3xl p-8 md:p-10 border border-blue-200 flex flex-col justify-between min-h-[400px]"
+                        className="bg-white  shadow-xl rounded-3xl p-8 md:p-10 border lg:min-h-[350px] border-blue-200 flex flex-col justify-between min-h-[400px]"
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1 }}
@@ -51,7 +50,7 @@ const OurStory = () => {
                             قصتنا
                         </h2>
                         <p
-                            className="text-gray-700 lg:text-xl lg:py-1 font-semibold leading-loose text-justify"
+                            className="text-gray-700 xl:text-xl lg:py-6  font-semibold xl:leading-loose text-justify"
                             dir="rtl"
                         >
                             بدأت قصتنا مع الفيبر جلاس و تلبية متطلبات السادة العملاء من تصنيع جميع منتجات الفيبر جلاس التي تخدم السادة العملاء و تصب في مصلحة بلادنا الحبيبة مصر مثل أكشاك الحراسة المصممة بطريقة ديكورية ماهرة لتلبية رغبة العميل و تحتوي شكلاً جمالياً و كذلك قمنا بتصنيع الخزانات بأشكالها و أحجامها المختلفة و استخداماتها المتنوعة و أتممنا رحلتنا في مجالات متنوعة تخدم اقتصاد بلادنا مثل أعمدة الإنارة حيث قمنا بتصنيع أعمدة الإنارة بأشكال ديكورية لتعطي جمالاً على المكان الذي توجد فيه قمنا بعمل قسم خاص لتصنيع أعمدة الإنارة بدأً من أصغر عامود ٦٠ سم حتى ١٢ م أعمدة الحدائق و النوادي و الشوارع و قمنا بعمل تصميمات جديدة للأعمدة و موقع خاص ليعرض منتجاتنا لعملائنا و أصبحنا مصنع مختص لتلبية طلبات العملاء
@@ -59,7 +58,7 @@ const OurStory = () => {
                     </motion.div>
 
                      <motion.div
-                        className="bg-white shadow-xl rounded-3xl border border-blue-200 flex flex-col min-h-[400px]"
+                        className="bg-white shadow-xl rounded-3xl border border-blue-200 flex flex-col lg:min-h-[350px] min-h-[400px]"
                         initial={{ opacity: 0, x: 30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1 }}
