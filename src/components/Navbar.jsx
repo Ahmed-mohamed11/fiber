@@ -1,67 +1,26 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/gfx/logo.png";
 import { motion, AnimatePresence } from "framer-motion";
-import image1 from "../images/gfx/download.jpeg";
-import image2 from "../images/gfx/download (1).jpeg";
-import image3 from "../images/gfx/download (2).jpeg";
-import image4 from "../images/gfx/download (3).jpg";
 import {
-  ArrowDownCircle,
   Eye,
-  GalleryVertical,
-  FileText,
   Menu,
   X,
 } from "lucide-react";
+import axios from "axios";
 
-const products = [
-  {
-    title: "اكشاك حراسة فيبر جلاس",
-    slug: "security-cabins",
-    image: image1,
-    links: [
-      { label: "تفاصيل", icon: <Eye size={16} />, path: "" },
-      { label: "معرض الصور", icon: <GalleryVertical size={16} />, path: "/gallery" },
-      { label: "طلب عرض سعر", icon: <FileText size={16} />, path: "/quote" },
-    ],
-  },
-  {
-    title: "المباني سابقة التجهيز",
-    slug: "prefabricated-buildings",
-    image: image2,
-    links: [
-      { label: "تفاصيل", icon: <Eye size={16} />, path: "" },
-      { label: "معرض الصور", icon: <GalleryVertical size={16} />, path: "/gallery" },
-      { label: "طلب عرض سعر", icon: <FileText size={16} />, path: "/quote" },
-    ],
-  },
-  {
-    title: "حمامات سباحة",
-    slug: "swimming-pools",
-    image: image3,
-    links: [
-      { label: "تفاصيل", icon: <Eye size={16} />, path: "" },
-      { label: "معرض الصور", icon: <GalleryVertical size={16} />, path: "/gallery" },
-      { label: "طلب عرض سعر", icon: <FileText size={16} />, path: "/quote" },
-    ],
-  },
-  {
-    title: "خزانات فيبر جلاس",
-    slug: "fiberglass-tanks",
-    image: image4,
-    links: [
-      { label: "تفاصيل", icon: <Eye size={16} />, path: "" },
-      { label: "معرض الصور", icon: <GalleryVertical size={16} />, path: "/gallery" },
-      { label: "طلب عرض سعر", icon: <FileText size={16} />, path: "/quote" },
-    ],
-  },
-];
 
 const Navbar = () => {
   const [isHovered, setIsHovered] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  const [categories, setCategories] = useState([]);
+  console.log('3', categories);
+  useEffect(() => {
+    axios
+      .get("/public/products.json")
+      .then((res) => setCategories(res.data))
+      .catch((err) => console.error("Error fetching categories:", err));
+  }, []);
   return (
     <>
       <motion.div
@@ -76,16 +35,15 @@ const Navbar = () => {
             <img src={logo} alt="Logo" className="w-16 h-16 object-contain" />
           </Link>
 
-          <div className="hidden md:flex items-center gap-6 font-semibold text-lg flex-row-reverse">
+          <div className="hidden md:flex items-center gap-6 font-semibold text-lg flex-row">
             <Link to="/" className="hover:text-yellow-500 transition">الرئيسية</Link>
             <div
               className="relative group cursor-pointer"
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
+
             >
-              <div className="flex items-center gap-2">
+              <div onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)} className="flex items-center gap-2">
                 <Link to="/products" className="hover:text-yellow-500 transition">المنتجات</Link>
-                <ArrowDownCircle size={20} className="hover:text-yellow-500 transition" />
               </div>
             </div>
             <Link to="/about" className="hover:text-yellow-500 transition">عن الشركة</Link>
@@ -128,26 +86,23 @@ const Navbar = () => {
             transition={{ duration: 0.4, ease: "easeInOut" }}
             className="hidden md:block fixed top-0 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50"
           >
-            <div className="max-w-7xl mx-auto px-6 py-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-right">
-              {products.map((product, index) => (
+            <div className="max-w-8xl mx-auto px-6 py-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-7 gap-4 text-center">
+              {categories.map((category, index) => (
                 <div key={index} className="text-center space-y-3">
                   <img
-                    src={product.image}
-                    alt={product.title}
+                    src={category.image}
+                    alt={category.name}
                     className="w-24 h-24 object-cover rounded-full mx-auto border-4 border-yellow-400 shadow"
                   />
-                  <p className="font-bold text-red-800">{product.title}</p>
+                  <p className="font-bold text-red-800">{category.name}</p>
                   <div className="space-y-1 text-sm text-gray-700">
-                    {product.links.map((link, i) => (
-                      <Link
-                        key={i}
-                        to={`/products/${product.slug}${link.path}`}
-                        className="flex items-center justify-center gap-2 hover:text-red-600 transition"
-                      >
-                        {link.icon}
-                        <span>{link.label}</span>
-                      </Link>
-                    ))}
+                    <Link
+                      to={`/products/${category.slug}`}
+                      className="flex items-center justify-center gap-2 hover:text-red-600 transition"
+                    >
+                      <Eye size={16} />
+                      <span>عرض المنتجات</span>
+                    </Link>
                   </div>
                 </div>
               ))}

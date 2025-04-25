@@ -13,6 +13,7 @@
     "@headlessui/react": "^1.7.18",
     "@phosphor-icons/react": "^2.1.4",
     "@vitejs/plugin-react": "^4.3.1",
+    "axios": "^1.9.0",
     "classnames": "^2.5.1",
     "framer-motion": "^12.7.4",
     "gsap": "^3.12.5",
@@ -28,7 +29,7 @@
     "sass": "^1.70.0",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.10.5",
-    "swiper": "^11.1.14",
+    "swiper": "^11.2.6",
     "three": "^0.169.0",
     "three-dots": "^0.3.2"
   },
