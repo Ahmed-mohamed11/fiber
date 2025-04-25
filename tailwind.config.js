@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        // themeColor: "#1f7cf5",
         themeColor: {
           50: "#eff6ff",
           100: "#dbeafe",
@@ -77,6 +76,19 @@ export default {
         move5: "move5 ease-in-out 4s infinite alternate",
         move6: "move6 ease-in-out 8s infinite alternate",
         move7: "move7 ease-in-out 4s infinite alternate",
+      },
+      // tailwind.config.js
+      theme: {
+        container: {
+          center: true,
+          padding: "1rem",
+          screens: {
+            sm: "100%",
+            md: "768px",
+            lg: "1024px",
+            xl: "1280px",
+          },
+        },
       },
     },
   },

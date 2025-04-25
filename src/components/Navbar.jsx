@@ -11,6 +11,8 @@ import {
   Eye,
   GalleryVertical,
   FileText,
+  Menu,
+  X,
 } from "lucide-react";
 
 const products = [
@@ -58,43 +60,63 @@ const products = [
 
 const Navbar = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <>
-      {/* Navbar */}
       <motion.div
+      dir="rtl"
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="w-full bg-white shadow-lg z-50 fixed top-0"
       >
         <div className="container mx-auto flex justify-between items-center h-20 px-6 md:px-16">
-          {/* Right Menu */}
-          <div className="flex items-center gap-6 md:gap-10 font-semibold text-lg flex-row-reverse">
+          <Link to="/">
+            <img src={logo} alt="Logo" className="w-16 h-16 object-contain" />
+          </Link>
+
+          <div className="hidden md:flex items-center gap-6 font-semibold text-lg flex-row-reverse">
             <Link to="/" className="hover:text-yellow-500 transition">الرئيسية</Link>
             <div
               className="relative group cursor-pointer"
-
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
             >
-              <div className="flex items-center gap-2  transition">
-                <ArrowDownCircle size={20} className="hover:text-yellow-500 transition"
-                  onMouseEnter={() => setIsHovered(true)}
-                  onMouseLeave={() => setIsHovered(false)} />
-                <Link to="/products" className="hover:text-yellow-500 transition"> المنتجات</Link>
+              <div className="flex items-center gap-2">
+                <ArrowDownCircle size={20} className="hover:text-yellow-500 transition" />
+                <Link to="/products" className="hover:text-yellow-500 transition">المنتجات</Link>
               </div>
             </div>
             <Link to="/about" className="hover:text-yellow-500 transition">عن الشركة</Link>
             <Link to="/contact" className="hover:text-yellow-500 transition">تواصل معنا</Link>
           </div>
 
-          {/* Logo */}
-          <Link to="/">
-            <img src={logo} alt="Logo" className="w-20 h-20 object-contain" />
-          </Link>
+          <div className="md:hidden">
+            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+              {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+            </button>
+          </div>
         </div>
+
+        <AnimatePresence>
+          {mobileMenuOpen && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="md:hidden bg-white px-6 py-4 space-y-4 shadow"
+            >
+              <Link to="/" className="block text-right hover:text-yellow-500">الرئيسية</Link>
+              <Link to="/products" className="block text-right hover:text-yellow-500">المنتجات</Link>
+              <Link to="/about" className="block text-right hover:text-yellow-500">عن الشركة</Link>
+              <Link to="/contact" className="block text-right hover:text-yellow-500">تواصل معنا</Link>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </motion.div>
 
-      {/* Dropdown Menu */}
       <AnimatePresence>
         {isHovered && (
           <motion.div
@@ -104,7 +126,7 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
-            className="fixed top-0 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50 "
+            className="hidden md:block fixed top-20 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50"
           >
             <div className="max-w-7xl mx-auto px-6 py-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-right">
               {products.map((product, index) => (

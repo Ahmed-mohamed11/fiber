@@ -7,8 +7,8 @@ export default function Hero() {
     return (
         <section className="bg-gradient-to-b from-blue-50 via-white to-blue-100 relative top-20" dir="ltr">
             <div className="container mx-auto px-6 md:px-12 font-sans">
-                <div className="grid md:grid-cols-2 gap-16 items-stretch min-h-[600px]">
-                     <motion.div
+                <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-stretch min-h-[600px]">
+                    <motion.div
                         className="order-1 md:order-2 flex flex-col justify-between h-full"
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
@@ -19,11 +19,11 @@ export default function Hero() {
                             <img
                                 src={logo}
                                 alt="Logo"
-                                className="w-full h-[400px] md:h-[500px] object-cover rounded-3xl"
+                                className="w-full h-64 sm:h-96 md:h-[500px] object-cover rounded-3xl"
                             />
                         </div>
 
-                        <div className="mt-6 grid grid-cols-2 gap-4">
+                        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <Link to="/products">
                                 <motion.button
                                     whileHover={{ scale: 1.05 }}
@@ -52,7 +52,7 @@ export default function Hero() {
                         </div>
                     </motion.div>
 
-                     <motion.div
+                    <motion.div
                         className="space-y-10 order-2 md:order-1 h-full self-stretch flex flex-col justify-center"
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -60,7 +60,7 @@ export default function Hero() {
                         viewport={{ once: false, amount: 0.5 }}
                     >
                         <header className="text-center md:text-right" dir="rtl">
-                            <h1 className="text-3xl w-fit md:text-4xl font-extrabold py-2 text-blue-900 border-b-2 border-b-black border-dashed border-l-blue-700 mb-2">
+                            <h1 className="text-3xl md:text-4xl font-extrabold py-2 text-blue-900 border-b-2 border-b-black border-dashed border-l-blue-700 w-fit mx-auto md:mx-0">
                                 لماذا شركة شوشه للفيبر جلاس؟
                             </h1>
                         </header>
@@ -87,6 +87,5 @@ export default function Hero() {
                 </div>
             </div>
         </section>
-
     );
 }

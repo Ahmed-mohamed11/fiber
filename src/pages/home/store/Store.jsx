@@ -78,8 +78,7 @@ export default function Store() {
                     <span className="absolute left-1/2 -bottom-2 w-20 h-1 bg-red-600 rounded-full transform -translate-x-1/2"></span>
                 </h2>
 
-                <div className="grid md:grid-cols-3 gap-8 mb-12" dir="rtl"
->
+                <div className="grid md:grid-cols-3 gap-8 mb-12" dir="rtl">
                     {[
                         {
                             title: "صمم من أجل الأفضل",
