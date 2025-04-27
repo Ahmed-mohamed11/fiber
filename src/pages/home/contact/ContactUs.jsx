@@ -110,7 +110,7 @@ export default function ContactForm() {
                 <div className="mt-10 flex flex-col md:flex-row justify-around items-center gap-6 text-center text-gray-700 text-base font-medium">
                     <div className="flex items-center gap-2">
                         <MdMailOutline className="text-sky-600 text-xl" />
-                        <span>shoosha.factory@gmail.com</span>
+                        <span>samamdouh214@gmail.com</span>
                     </div>
                     <div className="flex items-center gap-2">
                         <FaPhone className="text-sky-600 text-lg" />

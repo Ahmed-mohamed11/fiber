@@ -23,7 +23,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
 
                 <div className="footer-col">
-                    <h2 className="text-3xl font-bold text-white mb-4">شوشه للفيبرجلاس</h2>
+                    <h2 className="text-3xl font-bold text-white mb-4">شوشه جروب للفيبرجلاس</h2>
                     <p className="text-sm leading-7 text-gray-400">
                         نقدم أفضل حلول الفيبرجلاس بخبرة وجودة عالية، ونتميز في تنفيذ المشاريع الصناعية والسكنية بتقنيات متقدمة.
                     </p>
@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
 
             <div className="border-t border-gray-700 mt-12 pt-6 text-center text-sm text-gray-500">
-                © {new Date().getFullYear()} جميع الحقوق محفوظة لشوشه للفيبرجلاس.
+                © {new Date().getFullYear()} جميع الحقوق محفوظة لشوشه جروب للفيبرجلاس.
             </div>
         </footer>
     );

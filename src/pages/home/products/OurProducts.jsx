@@ -71,7 +71,7 @@ export default function OurProducts() {
                     whileInView="visible"
                     viewport={{ once: true }}
                 >
-                    منتجات مصنع شوشه للفيبرجلاس
+                    منتجات شوشه جروب للفيبرجلاس
                 </motion.h4>
 
                 <div className="h-1 w-48 mx-auto md:ml-auto bg-red-700 rounded-full animate-bounce" />
@@ -129,7 +129,7 @@ export default function OurProducts() {
                         variants={fadeInPolicy}
                     >
                         <div className="bg-blue-700 text-white p-5 text-center">
-                            <h2 className="text-2xl font-bold">السياسة العامة لشركة شوشه</h2>
+                            <h2 className="text-2xl font-bold">السياسة العامة لشوشه جروب</h2>
                         </div>
                         <motion.div
                             className="p-6 space-y-5 text-gray-700"

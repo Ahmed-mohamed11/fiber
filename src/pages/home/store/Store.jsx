@@ -74,7 +74,7 @@ export default function Store() {
 
 
                 <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-900 my-8 relative">
-                    لماذا تختار شوشه للفيبرجلاس؟
+                    لماذا تختار شوشه جروب للفيبرجلاس؟
                     <span className="absolute left-1/2 -bottom-2 w-20 h-1 bg-red-600 rounded-full transform -translate-x-1/2"></span>
                 </h2>
 
@@ -138,7 +138,7 @@ export default function Store() {
                         اطلب منتجاتنا الآن
                     </Link>
                     <p className="text-sm font-medium text-gray-700 text-center md:text-right">
-                        لطلب منتجات شركة شوشة للفيبرجلاس
+                        لطلب منتجات شوشه جروب للفيبرجلاس
                         <br />
                         اكشاك حراسة - اكوابارك - ألعاب أطفال - خزانات - كرافانات - كبائن سيارات - طفطف
                     </p>

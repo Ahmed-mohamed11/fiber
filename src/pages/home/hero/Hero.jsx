@@ -61,7 +61,7 @@ export default function Hero() {
                     >
                         <header className="text-center md:text-right" dir="rtl">
                             <h1 className="text-3xl md:text-4xl font-extrabold py-2 text-blue-900 border-b-2 border-b-black border-dashed border-l-blue-700 w-fit mx-auto md:mx-0">
-                                لماذا شركة شوشه للفيبر جلاس؟
+                                لماذا شوشه جروب للفيبر جلاس؟
                             </h1>
                         </header>
 
