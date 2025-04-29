@@ -365,5 +365,261 @@
             "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
         }
     ]
+  },
+  {
+    "id": 11,
+    "name":"صناديق توزيع كهرباء",
+    "slug":"electrical-distribution-boxes",
+    "image":"/public/images/electrical-distribution-boxes/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "صناديق توزيع كهرباء",
+            "slug": "sanadik-tawzi-kahraba",
+            "image": "images/electrical-distribution-boxes/Picture1.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 12,
+    "name":"دواليب معدات إطفاء",
+    "slug":"fire-fighting-equipment-cabinets",
+    "image":"/public/images/fire-fighting-equipment-cabinets/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "دواليب معدات إطفاء",
+            "slug": "dawalib-muadad-itfa",
+            "image": "images/fire-fighting-equipment-cabinets/cover.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 13,
+    "name":"أكشاك حراسة",
+    "slug":"guard-huts",
+    "image":"/public/images/guard-huts/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "كشك حراسة",
+            "slug": "kashk-hirasa1",
+            "image": "images/guard-huts/Picture1.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 2,
+            "name": "كشك حراسة",
+            "slug": "kashk-hirasa2",
+            "image": "images/guard-huts/Picture2.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 3,
+            "name": "كشك حراسة",
+            "slug": "kashk-hirasa3",
+            "image": "images/guard-huts/Picture3.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 4,
+            "name": "كشك حراسة",
+            "slug": "kashk-hirasa4",
+            "image": "images/guard-huts/Picture4.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 5,
+            "name": "كشك حراسة",
+            "slug": "kashk-hirasa5",
+            "image": "images/guard-huts/Picture5.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 6,
+            "name": "كشك حراسة",
+            "slug": "kashk-hirasa6",
+            "image": "images/guard-huts/Picture6.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 14,
+    "name":"حمام متنقل",
+    "slug":"mobile-toilet",
+    "image":"/public/images/mobile-toilet/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "حمام متنقل",
+            "slug": "hamam-motnql",
+            "image": "images/mobile-toilet/cover.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 15,
+    "name":"أسوار عازلة للصوت",
+    "slug":"soundproof-fences",
+    "image":"/public/images/soundproof-fences/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "أسوار عازلة للصوت",
+            "slug": "aswar-azila-llsot",
+            "image": "images/soundproof-fences/cover.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 16,
+    "name":"إسطمبات صب خرسانة",
+    "slug":"concrete-molds",
+    "image":"/public/images/concrete-molds/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "إسطمبات صب خرسانة",
+            "slug": "astambat-sab-kharasana",
+            "image": "images/concrete-molds/cover.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 17,
+    "name":"كراسي لعربات القطار و المترو",
+    "slug":"train-and-metro-chairs",
+    "image":"/public/images/train-and-metro-chairs/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "كراسي لعربات القطار و المترو",
+            "slug": "karasi-larabt-alqitar-w-almetru",
+            "image": "images/train-and-metro-chairs/cover.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 18,
+    "name":"تجهيزات داخلية لعربات القطار و المترو",
+    "slug":"train-and-metro-interiors",
+    "image":"/public/images/train-and-metro-interiors/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "تجهيزات داخلية لعربات القطار و المترو",
+            "slug": "tajhizat-dakhiliat-larabt-alqitar-w-almetru",
+            "image": "images/train-and-metro-interiors/cover.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 19,
+    "name":"تجاليد للأنفاق و الحوائط",
+    "slug":"cladding-for-tunnels-and-walls",
+    "image":"/public/images/cladding-for-tunnels-and-walls/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "تجاليد للأنفاق و الحوائط",
+            "slug": "tajalid-llanfq-w-alhawait",
+            "image": "images/cladding-for-tunnels-and-walls/cover.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 20,
+    "name":"خزانات مياة و كيماويات",
+    "slug":"water-and-chemical-tanks",
+    "image":"/public/images/water-and-chemical-tanks/cover.png",
+    "products": [
+        {
+            "id": 1,
+            "name": "خزانات مياة و كيماويات",
+            "slug": "khazanat-mayat-w-kimawiyat",
+            "image": "images/water-and-chemical-tanks/Picture1.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
+  },
+  {
+    "id": 21,
+    "name":"منتجات عامة",
+    "slug":"general-products",
+    "image":"/public/images/general-products/cover.jpeg",
+    "products": [
+        {
+            "id": 1,
+            "name": "منتجات عامة",
+            "slug": "montajat-aama1",
+            "image": "images/general-products/Picture1.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 2,
+            "name": "منتجات عامة",
+            "slug": "montajat-aama2",
+            "image": "images/general-products/Picture2.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 3,
+            "name": "منتجات عامة",
+            "slug": "montajat-aama3",
+            "image": "images/general-products/Picture3.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 4,
+            "name": "منتجات عامة",
+            "slug": "montajat-aama4",
+            "image": "images/general-products/Picture4.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 5,
+            "name": "منتجات عامة",
+            "slug": "montajat-aama5",
+            "image": "images/general-products/Picture5.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 6,
+            "name": "منتجات عامة",
+            "slug": "montajat-aama6",
+            "image": "images/general-products/Picture6.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 7,
+            "name": "منتجات عامة",
+            "slug": "montajat-aama7",
+            "image": "images/general-products/Picture7.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 8,
+            "name": "منتجات عامة",
+            "slug": "montajat-aama8",
+            "image": "images/general-products/Picture8.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        },
+        {
+            "id": 9,
+            "name": "منتجات عامة",
+            "slug": "montajat-aama9",
+            "image": "images/general-products/Picture9.png",
+            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+        }
+    ]
   }
 ]
