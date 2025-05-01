@@ -5,621 +5,649 @@
     "slug": "agricultural-basins",
     "image": "/public/images/agricultural-basins/cover.jpg",
     "products": [
-        {
-            "id": 1,
-            "name": "حوض كيرة",
-            "slug": "kira-basin",
-            "image": "images/agricultural-basins/kira-basin.jpg",
-            "description": "المقاس ارتفاع 60 و عرض 30"
-        },
-        {
-            "id": 2,
-            "name": "حوض غوار",
-            "slug": "gwar-basin",
-            "image": "images/agricultural-basins/gwar-basin.jpg",
-            "description": "المقاس 50 و 40 و 30"
-        },
-        {
-            "id": 3,
-            "name": "حوض القلب",
-            "slug": "heart-basin",
-            "image": "images/agricultural-basins/heart-basin.jpg",
-            "description": "المقاس 40"
-        },
-        {
-            "id": 4,
-            "name": "حوض مودرن",
-            "slug": "modern-basin1",
-            "image": "images/agricultural-basins/modern-basin1.jpg",
-            "description": "المقاس طول 150 و ارتفاع 50 و عرض 50"
-        },
-        {
-            "id": 5,
-            "name": "حوض مودرن",
-            "slug": "modern-basin2",
-            "image": "images/agricultural-basins/modern-basin2.jpg",
-            "description": "المقاس طول 120 و ارتفاع 40 و عرض 30"
-        },
-        {
-            "id": 6,
-            "name": "أحواض غوار",
-            "slug": "gwar-basin-set",
-            "image": "images/agricultural-basins/gwar-basin-set.jpg",
-            "description": "المقاس ارتفاع 60 و عرض 30"
-        },
-        {
-            "id": 7,
-            "name": "طقم الهفهوف",
-            "slug": "hifhof-set",
-            "image": "images/agricultural-basins/hifhof-set.jpg",
-            "description": "المقاس 50 و 40 و 30 متوفر جميع الألوان"
-        }
+      {
+        "id": 1,
+        "name": "حوض كيرة",
+        "slug": "kira-basin",
+        "image": "images/agricultural-basins/kira-basin.jpg",
+        "description": "المقاس ارتفاع 60 و عرض 30"
+      },
+      {
+        "id": 2,
+        "name": "حوض غوار",
+        "slug": "gwar-basin",
+        "image": "images/agricultural-basins/gwar-basin.jpg",
+        "description": "المقاس 50 و 40 و 30"
+      },
+      {
+        "id": 3,
+        "name": "حوض القلب",
+        "slug": "heart-basin",
+        "image": "images/agricultural-basins/heart-basin.jpg",
+        "description": "المقاس 40"
+      },
+      {
+        "id": 4,
+        "name": "حوض مودرن",
+        "slug": "modern-basin1",
+        "image": "images/agricultural-basins/modern-basin1.jpg",
+        "description": "المقاس طول 150 و ارتفاع 50 و عرض 50"
+      },
+      {
+        "id": 5,
+        "name": "حوض مودرن",
+        "slug": "modern-basin2",
+        "image": "images/agricultural-basins/modern-basin2.jpg",
+        "description": "المقاس طول 120 و ارتفاع 40 و عرض 30"
+      },
+      {
+        "id": 6,
+        "name": "أحواض غوار",
+        "slug": "gwar-basin-set",
+        "image": "images/agricultural-basins/gwar-basin-set.jpg",
+        "description": "المقاس ارتفاع 60 و عرض 30"
+      },
+      {
+        "id": 7,
+        "name": "طقم الهفهوف",
+        "slug": "hifhof-set",
+        "image": "images/agricultural-basins/hifhof-set.jpg",
+        "description": "المقاس 50 و 40 و 30 متوفر جميع الألوان"
+      }
     ]
   },
   {
     "id": 2,
-    "name":"الأشكال الهندسية",
-    "slug":"geometric-shapes",
-    "image":"/public/images/geometric-shapes/cover.jpg",
+    "name": "الأشكال الهندسية",
+    "slug": "geometric-shapes",
+    "image": "/public/images/geometric-shapes/cover.jpg",
     "products": [
-        {
-            "id": 1,
-            "name": "جلسة للأماكن العامة و الخاصة",
-            "slug": "jalsa-llamaken-alaama-w-alkhasa1",
-            "image": "images/geometric-shapes/jalsa-llamaken-alaama-w-alkhasa1.jpg",
-            "description": "مزودة بحوض زراعة و المقاس على حسب الطلب"
-        },
-        {
-            "id": 2,
-            "name": "جلسة للأماكن العامة و الخاصة",
-            "slug": "jalsa-llamaken-alaama-w-alkhasa2",
-            "image": "images/geometric-shapes/jalsa-llamaken-alaama-w-alkhasa2.jpg",
-            "description": "مزودة بموقف دراجات و الإضاءة و الخشب و المقاس على حسب الطلب"
-        },
-        {
-            "id": 3,
-            "name": "جلسة خارجية مع حوض للأشجار",
-            "slug": "jalsa-kharijia-ma-hodj-llashjar",
-            "image": "images/geometric-shapes/jalsa-kharijia-ma-hodj-llashjar.jpg",
-            "description": "المقاس على حسب الطلب و متوفر جميع الألوان"
-        },
-        {
-            "id": 4,
-            "name": "تصميم هارد سكيب للأشجار و النخل",
-            "slug": "tasnim-hard-skip-llashjar-w-nakhl",
-            "image": "images/geometric-shapes/tasnim-hard-skip-llashjar-w-nakhl.jpg",
-            "description": "المقاس على حسب الطلب"
-        },
-        {
-            "id": 5,
-            "name": "مجسم قلب و شعار يوم التأسيس",
-            "slug": "mojasam-qalb-w-shaar-yom-altasys",
-            "image": "images/geometric-shapes/mojasam-qalb-w-shaar-yom-altasys.jpg",
-            "description": "المقاس على حسب الطلب"
-        },
-        {
-            "id": 6,
-            "name": "مجسم صخرة",
-            "slug": "mojasam-sakhra",
-            "image": "images/geometric-shapes/mojasam-sakhra.jpg",
-            "description": "المقاس على حسب الطلب و متوفر جميع الألوان"
-        },
-        {
-            "id": 7,
-            "name": "جلسة خارجية",
-            "slug": "jalsa-kharijia",
-            "image": "images/geometric-shapes/jalsa-kharijia.jpg",
-            "description": "المقاس على حسب الطلب و متوفر جميع الألوان"
-        }
+      {
+        "id": 1,
+        "name": "جلسة للأماكن العامة و الخاصة",
+        "slug": "jalsa-llamaken-alaama-w-alkhasa1",
+        "image": "images/geometric-shapes/jalsa-llamaken-alaama-w-alkhasa1.jpg",
+        "description": "مزودة بحوض زراعة و المقاس على حسب الطلب"
+      },
+      {
+        "id": 2,
+        "name": "جلسة للأماكن العامة و الخاصة",
+        "slug": "jalsa-llamaken-alaama-w-alkhasa2",
+        "image": "images/geometric-shapes/jalsa-llamaken-alaama-w-alkhasa2.jpg",
+        "description": "مزودة بموقف دراجات و الإضاءة و الخشب و المقاس على حسب الطلب"
+      },
+      {
+        "id": 3,
+        "name": "جلسة خارجية مع حوض للأشجار",
+        "slug": "jalsa-kharijia-ma-hodj-llashjar",
+        "image": "images/geometric-shapes/jalsa-kharijia-ma-hodj-llashjar.jpg",
+        "description": "المقاس على حسب الطلب و متوفر جميع الألوان"
+      },
+      {
+        "id": 4,
+        "name": "تصميم هارد سكيب للأشجار و النخل",
+        "slug": "tasnim-hard-skip-llashjar-w-nakhl",
+        "image": "images/geometric-shapes/tasnim-hard-skip-llashjar-w-nakhl.jpg",
+        "description": "المقاس على حسب الطلب"
+      },
+      {
+        "id": 5,
+        "name": "مجسم قلب و شعار يوم التأسيس",
+        "slug": "mojasam-qalb-w-shaar-yom-altasys",
+        "image": "images/geometric-shapes/mojasam-qalb-w-shaar-yom-altasys.jpg",
+        "description": "المقاس على حسب الطلب"
+      },
+      {
+        "id": 6,
+        "name": "مجسم صخرة",
+        "slug": "mojasam-sakhra",
+        "image": "images/geometric-shapes/mojasam-sakhra.jpg",
+        "description": "المقاس على حسب الطلب و متوفر جميع الألوان"
+      },
+      {
+        "id": 7,
+        "name": "جلسة خارجية",
+        "slug": "jalsa-kharijia",
+        "image": "images/geometric-shapes/jalsa-kharijia.jpg",
+        "description": "المقاس على حسب الطلب و متوفر جميع الألوان"
+      }
     ]
   },
   {
     "id": 3,
-    "name":"الشلالات",
-    "slug":"waterfalls",
-    "image":"/public/images/waterfalls/cover.jpg",
+    "name": "الشلالات",
+    "slug": "waterfalls",
+    "image": "/public/images/waterfalls/cover.jpg",
     "products": [
-        {
-            "id": 1,
-            "name": "شلال الراين",
-            "slug": "shlal-alrayn",
-            "image": "images/waterfalls/shlal-alrayn.jpg",
-            "description": "المقاس عرض 1 متر و ارتفاع 180"
-        },
-        {
-            "id": 2,
-            "name": "شلال برلين",
-            "slug": "shlal-brlin",
-            "image": "images/waterfalls/shlal-brlin.jpg",
-            "description": "المقاس عرض 170 و ارتفاع 2 متر"
-        },
-        {
-            "id": 3,
-            "name": "شلال مودرن",
-            "slug": "shlal-modern",
-            "image": "images/waterfalls/shlal-modern.jpg",
-            "description": "المقاس عرض 170 و ارتفاع 1 متر"
-        },
-        {
-            "id": 4,
-            "name": "شلال إيطالي",
-            "slug": "shlal-itali",
-            "image": "images/waterfalls/shlal-itali.jpg",
-            "description": "المقاس عرض 150 و ارتفاع 180"
-        },
-        {
-            "id": 5,
-            "name": "شلال فوكيت",
-            "slug": "shlal-foket",
-            "image": "images/waterfalls/shlal-foket.jpg",
-            "description": "المقاس 140 سم و متوفر جميع الألوان"
+      {
+        "id": 1,
+        "name": "شلال الراين",
+        "slug": "shlal-alrayn",
+        "image": "images/waterfalls/shlal-alrayn.jpg",
+        "description": "المقاس عرض 1 متر و ارتفاع 180"
       },
-        {
-            "id": 6,
-            "name": "شلال كلاسيك",
-            "slug": "shlal-classic",
-            "image": "images/waterfalls/shlal-classic.jpg",
-            "description": "المقاس 2 متر و متوفر جميع الألوان"
-        }
+      {
+        "id": 2,
+        "name": "شلال برلين",
+        "slug": "shlal-brlin",
+        "image": "images/waterfalls/shlal-brlin.jpg",
+        "description": "المقاس عرض 170 و ارتفاع 2 متر"
+      },
+      {
+        "id": 3,
+        "name": "شلال مودرن",
+        "slug": "shlal-modern",
+        "image": "images/waterfalls/shlal-modern.jpg",
+        "description": "المقاس عرض 170 و ارتفاع 1 متر"
+      },
+      {
+        "id": 4,
+        "name": "شلال إيطالي",
+        "slug": "shlal-itali",
+        "image": "images/waterfalls/shlal-itali.jpg",
+        "description": "المقاس عرض 150 و ارتفاع 180"
+      },
+      {
+        "id": 5,
+        "name": "شلال فوكيت",
+        "slug": "shlal-foket",
+        "image": "images/waterfalls/shlal-foket.jpg",
+        "description": "المقاس 140 سم و متوفر جميع الألوان"
+      },
+      {
+        "id": 6,
+        "name": "شلال كلاسيك",
+        "slug": "shlal-classic",
+        "image": "images/waterfalls/shlal-classic.jpg",
+        "description": "المقاس 2 متر و متوفر جميع الألوان"
+      }
     ]
   },
   {
     "id": 4,
-    "name":"النوافير",
-    "slug":"fountains",
-    "image":"/public/images/fountains/cover.jpg",
+    "name": "النوافير",
+    "slug": "fountains",
+    "image": "/public/images/fountains/cover.jpg",
     "products": [
-        {
-            "id": 1,
-            "name": "نافورة الدوحة",
-            "slug": "nafura-aldoha",
-            "image": "images/fountains/nafura-aldoha.jpg",
-            "description": "المقاس طول 2 متر و عرض 90 و ارتفاع 60"
-        },
-        {
-            "id": 2,
-            "name": "نافورة الأميرة",
-            "slug": "nafura-alamira",
-            "image": "images/fountains/nafura-alamira.jpg",
-            "description": "المقاس ارتفاع 50 و قطر 1 متر"
-        },
-        {
-            "id": 3,
-            "name": "نافورة العلا",
-            "slug": "nafura-alula",
-            "image": "images/fountains/nafura-alula.jpg",
-            "description": "المقاس عرض 80 و ارتفاع 150"
-        },
-        {
-            "id": 4,
-            "name": "نافورة زهرة البردي",
-            "slug": "nafura-zahrat-albardi",
-            "image": "images/fountains/nafura-zahrat-albardi.jpg",
-            "description": "المقاس عرض 60 و ارتفاع 40"
-        },
-        {
-            "id": 5,
-            "name": "نافورة إسلامي",
-            "slug": "nafura-islami",
-            "image": "images/fountains/nafura-islami.jpg",
-            "description": "المقاس 150 سم و الألوان طبيعية"
-        },
-        {
-            "id": 6,
-            "name": "نافورة الدوحة صغيرة",
-            "slug": "nafura-aldoha-sghira",
-            "image": "images/fountains/nafura-aldoha-sghira.jpg",
-            "description": "المقاس طول 1 متر عرض 1 متر ارتفاع 60"
-        },
-        {
-            "id": 7,
-            "name": "نافورة قرطبة",
-            "slug": "nafura-qurtuba",
-            "image": "images/fountains/nafura-qurtuba.jpg",
-            "description": "المقاس 1 متر و متوفر جميع الألوان"
-        }
+      {
+        "id": 1,
+        "name": "نافورة الدوحة",
+        "slug": "nafura-aldoha",
+        "image": "images/fountains/nafura-aldoha.jpg",
+        "description": "المقاس طول 2 متر و عرض 90 و ارتفاع 60"
+      },
+      {
+        "id": 2,
+        "name": "نافورة الأميرة",
+        "slug": "nafura-alamira",
+        "image": "images/fountains/nafura-alamira.jpg",
+        "description": "المقاس ارتفاع 50 و قطر 1 متر"
+      },
+      {
+        "id": 3,
+        "name": "نافورة العلا",
+        "slug": "nafura-alula",
+        "image": "images/fountains/nafura-alula.jpg",
+        "description": "المقاس عرض 80 و ارتفاع 150"
+      },
+      {
+        "id": 4,
+        "name": "نافورة زهرة البردي",
+        "slug": "nafura-zahrat-albardi",
+        "image": "images/fountains/nafura-zahrat-albardi.jpg",
+        "description": "المقاس عرض 60 و ارتفاع 40"
+      },
+      {
+        "id": 5,
+        "name": "نافورة إسلامي",
+        "slug": "nafura-islami",
+        "image": "images/fountains/nafura-islami.jpg",
+        "description": "المقاس 150 سم و الألوان طبيعية"
+      },
+      {
+        "id": 6,
+        "name": "نافورة الدوحة صغيرة",
+        "slug": "nafura-aldoha-sghira",
+        "image": "images/fountains/nafura-aldoha-sghira.jpg",
+        "description": "المقاس طول 1 متر عرض 1 متر ارتفاع 60"
+      },
+      {
+        "id": 7,
+        "name": "نافورة قرطبة",
+        "slug": "nafura-qurtuba",
+        "image": "images/fountains/nafura-qurtuba.jpg",
+        "description": "المقاس 1 متر و متوفر جميع الألوان"
+      }
     ]
   },
   {
     "id": 5,
-    "name":"الديكورات المضيئة",
-    "slug":"illuminated-decorations",
-    "image":"/public/images/illuminated-decorations/cover.jpg",
+    "name": "الديكورات المضيئة",
+    "slug": "illuminated-decorations",
+    "image": "/public/images/illuminated-decorations/cover.jpg",
     "products": [
-        {
-            "id": 1,
-            "name": "كورة إسلامي",
-            "slug": "kora-islami1",
-            "image": "images/illuminated-decorations/kora-islami1.jpg",
-            "description": "المقاس 80 سم"
-        },
-        {
-            "id": 2,
-            "name": "كورة حلزوني",
-            "slug": "kora-halazoni",
-            "image": "images/illuminated-decorations/kora-halazoni.jpg",
-            "description": "المقاس 40 سم"
-        },
-        {
-            "id": 3,
-            "name": "كورة إسلامي",
-            "slug": "kora-islami2",
-            "image": "images/illuminated-decorations/kora-islami2.jpg",
-            "description": "المقاس 50 سم"
-        },
-        {
-            "id": 4,
-            "name": "كورة شجرة",
-            "slug": "kora-shajra",
-            "image": "images/illuminated-decorations/kora-shajra.jpg",
-            "description": "المقاس 50 سم"
-        }
+      {
+        "id": 1,
+        "name": "كورة إسلامي",
+        "slug": "kora-islami1",
+        "image": "images/illuminated-decorations/kora-islami1.jpg",
+        "description": "المقاس 80 سم"
+      },
+      {
+        "id": 2,
+        "name": "كورة حلزوني",
+        "slug": "kora-halazoni",
+        "image": "images/illuminated-decorations/kora-halazoni.jpg",
+        "description": "المقاس 40 سم"
+      },
+      {
+        "id": 3,
+        "name": "كورة إسلامي",
+        "slug": "kora-islami2",
+        "image": "images/illuminated-decorations/kora-islami2.jpg",
+        "description": "المقاس 50 سم"
+      },
+      {
+        "id": 4,
+        "name": "كورة شجرة",
+        "slug": "kora-shajra",
+        "image": "images/illuminated-decorations/kora-shajra.jpg",
+        "description": "المقاس 50 سم"
+      }
     ]
   },
   {
     "id": 6,
-    "name":"طفطف",
-    "slug":"tuf-tuf",
-    "image":"/public/images/tuf-tuf/cover.jpg.webp",
+    "name": "طفطف",
+    "slug": "tuf-tuf",
+    "image": "/public/images/tuf-tuf/cover.jpg.webp",
     "products": [
-        {
-            "id": 1,
-            "name": "قطار طفطف",
-            "slug": "ketar-tuf-tuf1",
-            "image": "images/tuf-tuf/ketar-tuf-tuf1.jpg",
-            "description": "قطار طفطف لنقل الركاب للوحدات المحلبة"
-        },
-        {
-            "id": 2,
-            "name": "قطار طفطف",
-            "slug": "ketar-tuf-tuf2",
-            "image": "images/tuf-tuf/ketar-tuf-tuf2.jpg",
-            "description": "قطار طفطف نزهة للقرى السياحية"
-        }
+      {
+        "id": 1,
+        "name": "قطار طفطف",
+        "slug": "ketar-tuf-tuf1",
+        "image": "images/tuf-tuf/ketar-tuf-tuf1.jpg",
+        "description": "قطار طفطف لنقل الركاب للوحدات المحلبة"
+      },
+      {
+        "id": 2,
+        "name": "قطار طفطف",
+        "slug": "ketar-tuf-tuf2",
+        "image": "images/tuf-tuf/ketar-tuf-tuf2.jpg",
+        "description": "قطار طفطف نزهة للقرى السياحية"
+      }
     ]
   },
   {
     "id": 7,
-    "name":"حمامات سباحة",
-    "slug":"swimming-pools",
-    "image":"/public/images/swimming-pools/cover.webp",
+    "name": "حمامات سباحة",
+    "slug": "swimming-pools",
+    "image": "/public/images/swimming-pools/cover.webp",
     "products": [
-        {
-            "id": 1,
-            "name": "حمام سباحة",
-            "slug": "hamam-sibaha1",
-            "image": "images/swimming-pools/hamam-sibaha1.jpg",
-            "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
-        },
-        {
-            "id": 2,
-            "name": "حمام سباحة",
-            "slug": "hamam-sibaha2",
-            "image": "images/swimming-pools/hamam-sibaha2.jpg",
-            "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
-        },
-        {
-            "id": 3,
-            "name": "حمام سباحة",
-            "slug": "hamam-sibaha3",
-            "image": "images/swimming-pools/hamam-sibaha3.jpg",
-            "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "حمام سباحة",
+        "slug": "hamam-sibaha1",
+        "image": "images/swimming-pools/hamam-sibaha1.jpg",
+        "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
+      },
+      {
+        "id": 2,
+        "name": "حمام سباحة",
+        "slug": "hamam-sibaha2",
+        "image": "images/swimming-pools/hamam-sibaha2.jpg",
+        "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
+      },
+      {
+        "id": 3,
+        "name": "حمام سباحة",
+        "slug": "hamam-sibaha3",
+        "image": "images/swimming-pools/hamam-sibaha3.jpg",
+        "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 8,
-    "name":"أحواض أسماك",
-    "slug":"fish-basins",
-    "image":"/public/images/fish-basins/cover.jpg.avif",
+    "name": "أحواض أسماك",
+    "slug": "fish-basins",
+    "image": "/public/images/fish-basins/cover.jpg.avif",
     "products": [
-        {
-            "id": 1,
-            "name": "حوض سمك",
-            "slug": "hodj-samak",
-            "image": "images/fish-basins/hodj-samak.jpg.avif",
-            "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "حوض سمك",
+        "slug": "hodj-samak",
+        "image": "images/fish-basins/hodj-samak.jpg.avif",
+        "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 9,
-    "name":"أكوا بارك",
-    "slug":"aqua-park",
-    "image":"/public/images/aqua-park/cover.webp",
+    "name": "أكوا بارك",
+    "slug": "aqua-park",
+    "image": "/public/images/aqua-park/cover.webp",
     "products": [
-        {
-            "id": 1,
-            "name": "أكوا بارك",
-            "slug": "aqua-park1",
-            "image": "images/aqua-park/aqua-park1.jpg",
-            "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
-        },
-        {
-            "id": 2,
-            "name": "أكوا بارك",
-            "slug": "aqua-park2",
-            "image": "images/aqua-park/aqua-park2.jpg.webp",
-            "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
-        },
-        {
-            "id": 3,
-            "name": "أكوا بارك",
-            "slug": "aqua-park3",
-            "image": "images/aqua-park/aqua-park3.jpg",
-            "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "أكوا بارك",
+        "slug": "aqua-park1",
+        "image": "images/aqua-park/aqua-park1.jpg",
+        "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
+      },
+      {
+        "id": 2,
+        "name": "أكوا بارك",
+        "slug": "aqua-park2",
+        "image": "images/aqua-park/aqua-park2.jpg.webp",
+        "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
+      },
+      {
+        "id": 3,
+        "name": "أكوا بارك",
+        "slug": "aqua-park3",
+        "image": "images/aqua-park/aqua-park3.jpg",
+        "description": "يتوفر بمقاسات و ألوان مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 10,
-    "name":"أعمدة إنارة",
-    "slug":"lighting-poles",
-    "image":"/public/images/lighting-poles/cover.jpg",
+    "name": "أعمدة إنارة",
+    "slug": "lighting-poles",
+    "image": "/public/images/lighting-poles/cover.jpg",
     "products": [
-        {
-            "id": 1,
-            "name": "أعمدة إنارة",
-            "slug": "amoudat-inara",
-            "image": "images/lighting-poles/amoudat-inara.jpg.avif",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "أعمدة إنارة",
+        "slug": "amoudat-inara1",
+        "image": "images/lighting-poles/amoudat-inara.jpg.avif",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 2,
+        "name": "أعمدة إنارة",
+        "slug": "amoudat-inara2",
+        "image": "images/lighting-poles/amoudat-inara2.jpeg",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 3,
+        "name": "أعمدة إنارة",
+        "slug": "amoudat-inara3",
+        "image": "images/lighting-poles/amoudat-inara3.jpeg",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 4,
+        "name": "أعمدة إنارة",
+        "slug": "amoudat-inara4",
+        "image": "images/lighting-poles/amoudat-inara4.jpeg",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 5,
+        "name": "أعمدة إنارة",
+        "slug": "amoudat-inara5",
+        "image": "images/lighting-poles/amoudat-inara5.jpeg",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 11,
-    "name":"صناديق توزيع كهرباء",
-    "slug":"electrical-distribution-boxes",
-    "image":"/public/images/electrical-distribution-boxes/cover.png",
+    "name": "صناديق توزيع كهرباء",
+    "slug": "electrical-distribution-boxes",
+    "image": "/public/images/electrical-distribution-boxes/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "صناديق توزيع كهرباء",
-            "slug": "sanadik-tawzi-kahraba",
-            "image": "images/electrical-distribution-boxes/Picture1.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "صناديق توزيع كهرباء",
+        "slug": "sanadik-tawzi-kahraba",
+        "image": "images/electrical-distribution-boxes/Picture1.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 12,
-    "name":"دواليب معدات إطفاء",
-    "slug":"fire-fighting-equipment-cabinets",
-    "image":"/public/images/fire-fighting-equipment-cabinets/cover.png",
+    "name": "دواليب معدات إطفاء",
+    "slug": "fire-fighting-equipment-cabinets",
+    "image": "/public/images/fire-fighting-equipment-cabinets/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "دواليب معدات إطفاء",
-            "slug": "dawalib-muadad-itfa",
-            "image": "images/fire-fighting-equipment-cabinets/cover.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "دواليب معدات إطفاء",
+        "slug": "dawalib-muadad-itfa",
+        "image": "images/fire-fighting-equipment-cabinets/cover.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 13,
-    "name":"أكشاك حراسة",
-    "slug":"guard-huts",
-    "image":"/public/images/guard-huts/cover.png",
+    "name": "أكشاك حراسة",
+    "slug": "guard-huts",
+    "image": "/public/images/guard-huts/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "كشك حراسة",
-            "slug": "kashk-hirasa1",
-            "image": "images/guard-huts/Picture1.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 2,
-            "name": "كشك حراسة",
-            "slug": "kashk-hirasa2",
-            "image": "images/guard-huts/Picture2.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 3,
-            "name": "كشك حراسة",
-            "slug": "kashk-hirasa3",
-            "image": "images/guard-huts/Picture3.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 4,
-            "name": "كشك حراسة",
-            "slug": "kashk-hirasa4",
-            "image": "images/guard-huts/Picture4.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 5,
-            "name": "كشك حراسة",
-            "slug": "kashk-hirasa5",
-            "image": "images/guard-huts/Picture5.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 6,
-            "name": "كشك حراسة",
-            "slug": "kashk-hirasa6",
-            "image": "images/guard-huts/Picture6.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "كشك حراسة",
+        "slug": "kashk-hirasa1",
+        "image": "images/guard-huts/Picture1.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 2,
+        "name": "كشك حراسة",
+        "slug": "kashk-hirasa2",
+        "image": "images/guard-huts/Picture2.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 3,
+        "name": "كشك حراسة",
+        "slug": "kashk-hirasa3",
+        "image": "images/guard-huts/Picture3.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 4,
+        "name": "كشك حراسة",
+        "slug": "kashk-hirasa4",
+        "image": "images/guard-huts/Picture4.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 5,
+        "name": "كشك حراسة",
+        "slug": "kashk-hirasa5",
+        "image": "images/guard-huts/Picture5.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 6,
+        "name": "كشك حراسة",
+        "slug": "kashk-hirasa6",
+        "image": "images/guard-huts/Picture6.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 14,
-    "name":"حمام متنقل",
-    "slug":"mobile-toilet",
-    "image":"/public/images/mobile-toilet/cover.png",
+    "name": "حمام متنقل",
+    "slug": "mobile-toilet",
+    "image": "/public/images/mobile-toilet/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "حمام متنقل",
-            "slug": "hamam-motnql",
-            "image": "images/mobile-toilet/cover.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "حمام متنقل",
+        "slug": "hamam-motnql",
+        "image": "images/mobile-toilet/cover.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 15,
-    "name":"أسوار عازلة للصوت",
-    "slug":"soundproof-fences",
-    "image":"/public/images/soundproof-fences/cover.png",
+    "name": "أسوار عازلة للصوت",
+    "slug": "soundproof-fences",
+    "image": "/public/images/soundproof-fences/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "أسوار عازلة للصوت",
-            "slug": "aswar-azila-llsot",
-            "image": "images/soundproof-fences/cover.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "أسوار عازلة للصوت",
+        "slug": "aswar-azila-llsot",
+        "image": "images/soundproof-fences/cover.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 16,
-    "name":"إسطمبات صب خرسانة",
-    "slug":"concrete-molds",
-    "image":"/public/images/concrete-molds/cover.png",
+    "name": "إسطمبات صب خرسانة",
+    "slug": "concrete-molds",
+    "image": "/public/images/concrete-molds/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "إسطمبات صب خرسانة",
-            "slug": "astambat-sab-kharasana",
-            "image": "images/concrete-molds/cover.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "إسطمبات صب خرسانة",
+        "slug": "astambat-sab-kharasana",
+        "image": "images/concrete-molds/cover.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 17,
-    "name":"كراسي لعربات القطار و المترو",
-    "slug":"train-and-metro-chairs",
-    "image":"/public/images/train-and-metro-chairs/cover.png",
+    "name": "كراسي لعربات القطار و المترو",
+    "slug": "train-and-metro-chairs",
+    "image": "/public/images/train-and-metro-chairs/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "كراسي لعربات القطار و المترو",
-            "slug": "karasi-larabt-alqitar-w-almetru",
-            "image": "images/train-and-metro-chairs/cover.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "كراسي لعربات القطار و المترو",
+        "slug": "karasi-larabt-alqitar-w-almetru",
+        "image": "images/train-and-metro-chairs/cover.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 18,
-    "name":"تجهيزات داخلية لعربات القطار و المترو",
-    "slug":"train-and-metro-interiors",
-    "image":"/public/images/train-and-metro-interiors/cover.png",
+    "name": "تجهيزات داخلية لعربات القطار و المترو",
+    "slug": "train-and-metro-interiors",
+    "image": "/public/images/train-and-metro-interiors/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "تجهيزات داخلية لعربات القطار و المترو",
-            "slug": "tajhizat-dakhiliat-larabt-alqitar-w-almetru",
-            "image": "images/train-and-metro-interiors/cover.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "تجهيزات داخلية لعربات القطار و المترو",
+        "slug": "tajhizat-dakhiliat-larabt-alqitar-w-almetru",
+        "image": "images/train-and-metro-interiors/cover.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 19,
-    "name":"تجاليد للأنفاق و الحوائط",
-    "slug":"cladding-for-tunnels-and-walls",
-    "image":"/public/images/cladding-for-tunnels-and-walls/cover.png",
+    "name": "تجاليد للأنفاق و الحوائط",
+    "slug": "cladding-for-tunnels-and-walls",
+    "image": "/public/images/cladding-for-tunnels-and-walls/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "تجاليد للأنفاق و الحوائط",
-            "slug": "tajalid-llanfq-w-alhawait",
-            "image": "images/cladding-for-tunnels-and-walls/cover.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "تجاليد للأنفاق و الحوائط",
+        "slug": "tajalid-llanfq-w-alhawait",
+        "image": "images/cladding-for-tunnels-and-walls/cover.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 20,
-    "name":"خزانات مياة و كيماويات",
-    "slug":"water-and-chemical-tanks",
-    "image":"/public/images/water-and-chemical-tanks/cover.png",
+    "name": "خزانات مياة و كيماويات",
+    "slug": "water-and-chemical-tanks",
+    "image": "/public/images/water-and-chemical-tanks/cover.png",
     "products": [
-        {
-            "id": 1,
-            "name": "خزانات مياة و كيماويات",
-            "slug": "khazanat-mayat-w-kimawiyat",
-            "image": "images/water-and-chemical-tanks/Picture1.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "خزانات مياة و كيماويات",
+        "slug": "khazanat-mayat-w-kimawiyat",
+        "image": "images/water-and-chemical-tanks/Picture1.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   },
   {
     "id": 21,
-    "name":"منتجات عامة",
-    "slug":"general-products",
-    "image":"/public/images/general-products/cover.jpeg",
+    "name": "منتجات عامة",
+    "slug": "general-products",
+    "image": "/public/images/general-products/cover.jpeg",
     "products": [
-        {
-            "id": 1,
-            "name": "منتجات عامة",
-            "slug": "montajat-aama1",
-            "image": "images/general-products/Picture1.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 2,
-            "name": "منتجات عامة",
-            "slug": "montajat-aama2",
-            "image": "images/general-products/Picture2.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 3,
-            "name": "منتجات عامة",
-            "slug": "montajat-aama3",
-            "image": "images/general-products/Picture3.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 4,
-            "name": "منتجات عامة",
-            "slug": "montajat-aama4",
-            "image": "images/general-products/Picture4.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 5,
-            "name": "منتجات عامة",
-            "slug": "montajat-aama5",
-            "image": "images/general-products/Picture5.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 6,
-            "name": "منتجات عامة",
-            "slug": "montajat-aama6",
-            "image": "images/general-products/Picture6.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 7,
-            "name": "منتجات عامة",
-            "slug": "montajat-aama7",
-            "image": "images/general-products/Picture7.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 8,
-            "name": "منتجات عامة",
-            "slug": "montajat-aama8",
-            "image": "images/general-products/Picture8.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        },
-        {
-            "id": 9,
-            "name": "منتجات عامة",
-            "slug": "montajat-aama9",
-            "image": "images/general-products/Picture9.png",
-            "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
-        }
+      {
+        "id": 1,
+        "name": "منتجات عامة",
+        "slug": "montajat-aama1",
+        "image": "images/general-products/Picture1.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 2,
+        "name": "منتجات عامة",
+        "slug": "montajat-aama2",
+        "image": "images/general-products/Picture2.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 3,
+        "name": "منتجات عامة",
+        "slug": "montajat-aama3",
+        "image": "images/general-products/Picture3.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 4,
+        "name": "منتجات عامة",
+        "slug": "montajat-aama4",
+        "image": "images/general-products/Picture4.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 5,
+        "name": "منتجات عامة",
+        "slug": "montajat-aama5",
+        "image": "images/general-products/Picture5.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 6,
+        "name": "منتجات عامة",
+        "slug": "montajat-aama6",
+        "image": "images/general-products/Picture6.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 7,
+        "name": "منتجات عامة",
+        "slug": "montajat-aama7",
+        "image": "images/general-products/Picture7.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 8,
+        "name": "منتجات عامة",
+        "slug": "montajat-aama8",
+        "image": "images/general-products/Picture8.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      },
+      {
+        "id": 9,
+        "name": "منتجات عامة",
+        "slug": "montajat-aama9",
+        "image": "images/general-products/Picture9.png",
+        "description": "يتوفر بمقاسات و أشكال مختلفة على حسب الطلب"
+      }
     ]
   }
 ]
