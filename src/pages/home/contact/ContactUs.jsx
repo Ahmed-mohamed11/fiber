@@ -117,7 +117,7 @@ export default function ContactForm() {
           </div>
           <div className="flex items-center gap-2">
             <FaPhone className="text-sky-600 text-lg"/>
-            <span>01010909699</span>
+            <span>01010195337</span>
           </div>
         </div>
       </div>
